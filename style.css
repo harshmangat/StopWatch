@@ -116,3 +116,20 @@ p{
 } 
 
 
+@media screen and (max-width: 640px){
+  
+  .container{
+    overflow: hidden;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: auto;
+  }
+
+  #main{
+    overflow: hidden;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -4rem;
+  }
+ }

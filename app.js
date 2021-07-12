@@ -35,7 +35,7 @@ startBtn.addEventListener("click", () => {
     startBtn.innerText = "Start";
     return;
   }
-  interval = setInterval(setTime, 10);
+  interval = setInterval(setTime, 1000);
   startBtn.innerText = "Pause";
 });
 

@@ -63,6 +63,7 @@ p{
 
  .start{
   padding: 0.8rem;
+  border: none;
   border-radius: 5px;
   background-color: black;
   color: #F3F3F3;
@@ -70,7 +71,7 @@ p{
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 550;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   cursor:grab ;
   text-align: center;
   transition: 0.2s;
@@ -110,7 +111,7 @@ p{
   background: #F3F3F3;
   box-shadow: 0 0 10px #ee5edb, 0 0 20px #f15dde, 0 0 30px #ee5edb;
   border: 1px solid black;
-  border-radius: 70%;
+  
   transform: scale(1.1)
   
 } 
